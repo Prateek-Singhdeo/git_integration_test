@@ -84,7 +84,7 @@ def compute_block(block_id: int, size: int) -> List[Dict[str, Any]]:
         })
 
         if i % 100 == 0:
-            log_debug(f"block={block_id}, i={i}")
+            log_debug(f"block={block_id}, i={i}...")
 
     return results
 
@@ -211,4 +211,4 @@ if __name__ == "__main__":
     log_info(f"Generated {len(results)} block summaries")
     log_info(f"Generated {len(large_values)} massive values")
 
-    log_info("Execution completed")
+    log_info("Execution completed...")
