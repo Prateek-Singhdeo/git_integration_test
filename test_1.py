@@ -31,7 +31,7 @@ CONFIG = {
 
 def log_debug(message: str):
     if CONFIG["log_level"] == "DEBUG":
-        print(f"[DEBUG] {message}4")
+        print(f"[DEBUG] {message}5")
 
 def log_info(message: str):
     print(f"[INFO] {message}")
