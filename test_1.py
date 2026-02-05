@@ -69,7 +69,7 @@ def generate_random_floats(n: int) -> List[float]:
 # ============================================================
 
 def compute_block(block_id: int, size: int) -> List[Dict[str, Any]]:
-    log_info(f"Computing block {block_id}")
+    log_info(f"Computing block {block_id}1")
     results = []
 
     for i in range(size):
