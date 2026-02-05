@@ -34,7 +34,7 @@ def log_debug(message: str):
         print(f"[DEBUG] {message}8")
 
 def log_info(message: str):
-    print(f"[INFO] {message}")
+    print(f"[INFO] {message}1")
 
 def log_warn(message: str):
     print(f"[WARN] {message}")
